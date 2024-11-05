@@ -13,7 +13,8 @@ function App() {
         <img src={background} alt="" className='header-image'/>
         <div className='header-text'>
           <h1>Echos From Beyond</h1> <br />
-          <p>OnlyFans.com/ArchyChim</p>
+          <p>OnlyFans.com/ArchyChim</p> <br />
+          <p>Yamete Nyaaaa</p>
         </div>
       </div>
       
