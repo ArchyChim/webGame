@@ -6,8 +6,7 @@ import background from './assets/img/background.jpg'
 function App() {
 
   return (
-    <>
-
+  
       <div className='header-container'>
         <Navbar />
         <img src={background} alt="" className='header-image'/>
@@ -18,7 +17,7 @@ function App() {
         </div>
       </div>
       
-    </>
+    
   );
 }
 
