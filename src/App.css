@@ -46,7 +46,6 @@
     width: 100%;
     overflow: hidden;
     justify-content: center;
-    margin-top: 10px;
 }
 
 .video-background {
@@ -63,10 +62,12 @@
     opacity: 0; 
     color: white;
     font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     text-align: center;
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
     z-index: 2;
+    padding: 15px;
 }
 
 .video-container:is(:hover, :focus-within) .text-video {
