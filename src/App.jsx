@@ -18,10 +18,17 @@ function App() {
         </div>
       </div>
 
+      <div className="banner">
+        <div className="banner-text">
+          <h2>The best horror experience</h2> <br />
+          <p>Descargar ahora!</p>
+        </div>
+      </div>
+
       <div className='video-container'>
         <video src={video1} autoPlay loop muted className='video-background'></video>
         <div className='text-video'>
-          <h1>Experiencia de Horror Única</h1> 
+          <h1>Experiencia de Horror Única</h1> <br />
           <p>Adentrate al horror psicológico</p>
         </div>
       </div>
