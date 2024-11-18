@@ -12,14 +12,13 @@ function App() {
         <Navbar />
         <div className='header-text'>
           <h1>Echos From Beyond</h1> <br />
-          <p>Yamete Kudasai</p>
         </div>
       </div>
 
       <div className="banner">
         <div className="banner-text">
-          <h2>The best horror experience</h2> <br />
-          <p>¡Figure Out!</p>
+          <h2>La mejor experiencia de Horror</h2> <br />
+          <p>¡Descúbrelo!</p>
         </div>
       </div>
 
