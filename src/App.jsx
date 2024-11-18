@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import './App.css';
-import background from './assets/img/background.jpg'
 import video1 from './assets/video/video.mp4'
 
 
@@ -11,7 +10,6 @@ function App() {
     <>
       <div className='header-container'>
         <Navbar />
-        <img src={background} alt="" className='header-image'/>
         <div className='header-text'>
           <h1>Echos From Beyond</h1> <br />
           <p>Yamete Kudasai</p>
@@ -21,7 +19,7 @@ function App() {
       <div className="banner">
         <div className="banner-text">
           <h2>The best horror experience</h2> <br />
-          <p>Descargar ahora!</p>
+          <p>¡Figure Out!</p>
         </div>
       </div>
 
@@ -29,7 +27,7 @@ function App() {
         <video src={video1} autoPlay loop muted className='video-background'></video>
         <div className='text-video'>
           <h1>Experiencia de Horror Única</h1> <br />
-          <p>Adentrate al horror psicológico</p>
+          <p>¡Adéntrate al horror psicológico!</p>
         </div>
       </div>
       

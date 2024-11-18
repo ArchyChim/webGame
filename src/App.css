@@ -10,7 +10,8 @@
     top: 0; 
     left: 0; 
     width: 100%; 
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.9);
+    font-weight: 700;
     color: white; 
     padding: 25px; 
     z-index: 10; 
@@ -20,14 +21,15 @@
     position: relative;
     width: 100%;
     height: 955px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, #070707 100%), 
+    url('./assets/img/background.jpg') center/cover no-repeat;
+    overflow: hidden;
 }
 
 .header-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    display: none;
 }
+
 
 .header-text {
     position: absolute;
@@ -36,23 +38,24 @@
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 5px;
     font-size: 35px;
+    z-index: 2;
 }
 
 .banner {
-    background-color: #00030D;
+    position: relative;
+    background-color: #070707;
     color: #ffff;
     padding: 35px;
     text-align: center;
 }
 
 .banner-text {
-    font-size: 35px;
+    font-size: 25px;
     color: #fff;
-    margin: 25px;
+    padding: 100px 20px;
 }
 
 
@@ -60,6 +63,7 @@
 .video-container {
     position: relative;
     width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 70%, #0e0d0d 100%);
     overflow: hidden;
     justify-content: center;
 }
