@@ -8,11 +8,15 @@ function App() {
 
   return (
     <>
-      <div className='header-container'>
+      <div id='home' className='header-container'>
         <Navbar />
         <div className='header-text'>
           <h1>Echos From Beyond</h1> <br />
         </div>
+        <div className="arrow">
+          <span></span>
+          <span></span>
+        </div>  
       </div>
 
       <div className="banner">
