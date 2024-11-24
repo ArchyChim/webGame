@@ -19,7 +19,7 @@ function HistorySection () {
             {threshold: 0.5 }
         );
 
-        const elements = document.querySelectorAll('history-text');
+        const elements = document.querySelectorAll('.animate-text');
         elements.forEach((el) => observer.observe(el));
 
         return () => observer.disconnect();
@@ -30,7 +30,7 @@ function HistorySection () {
         <div id='history' className="history-section">
 
             <img src={image1} alt="" className="image1" />
-            <div className="history-text">      
+            <div className="history-text animate-text">      
                 <p>Ethan Blackwood, es un detective que lleva años atormentado por la desaparición de su hermana menor, 
                 Alice, quien desapareció sin dejar rastro hace cinco años. La investigación no arrojó ningún resultado, 
                 y la familia Blackwood se vio sumida en un profundo dolor. Ethan, incapaz de dejar atrás el misterio, se obsesionó con encontrar la verdad, 

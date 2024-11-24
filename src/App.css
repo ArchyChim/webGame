@@ -157,12 +157,16 @@ html {
     object-fit: cover;
 }
 
-.history-text {
+.animate-text {
     opacity: 0;
     transform: translateX(50px);
-    animation: fadeInText 1s ease-out forwards;
+    transition: opacity 1s ease-out, transform 1s ease-out;
     font-size: 30px;
-    flex: 1;
+}
+
+.animate-text.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 @keyframes fadeInText {
