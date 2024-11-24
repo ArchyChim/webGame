@@ -31,10 +31,10 @@ function HistorySection () {
 
             <img src={image1} alt="" className="image1" />
             <div className="history-text animate-text">      
-                <p>Ethan Blackwood, es un detective que lleva años atormentado por la desaparición de su hermana menor, 
-                Alice, quien desapareció sin dejar rastro hace cinco años. La investigación no arrojó ningún resultado, 
+                <em><p>Ethan Blackwood, es un detective que lleva años atormentado por la desaparición de su hermana menor, 
+                Alice, quien desapareció sin dejar rastro hace cinco años. La investigación no arrojó ningún resultado 
                 y la familia Blackwood se vio sumida en un profundo dolor. Ethan, incapaz de dejar atrás el misterio, se obsesionó con encontrar la verdad, 
-                investigando por su cuenta cada pista, cada rumor, cada sombra que pudiera conducirlo al paradero de Alice.</p>
+                investigando por su cuenta cada pista, cada rumor, cada sombra que pudiera conducirlo al paradero de Alice.</p> </em>
             </div>
 
         </div>
