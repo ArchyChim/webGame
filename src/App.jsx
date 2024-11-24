@@ -1,8 +1,9 @@
 import React from 'react'
 import './App.css';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
 import HomeSection from './components/HomeSection';
 import HistorySection from './components/HistorySection';
+import GallerySection from './components/GallerySection';
 
 
 
@@ -13,9 +14,11 @@ function App() {
     <>
       <Navbar />
     
-      <HomeSection/>
+      <HomeSection />
       
       <HistorySection />
+
+      <GallerySection />
       
     </>
   );

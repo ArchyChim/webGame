@@ -28,7 +28,9 @@ function HomeSection () {
                 <h1>Experiencia de Horror Única</h1> <br />
                 <p>¡Adéntrate al horror psicológico!</p>
             </div>
-        </div></>
+        </div>
+        
+        </>
     );
 }
 
