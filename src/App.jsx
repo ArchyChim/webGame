@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import './App.css';
 import video1 from './assets/video/video.mp4'
+import HistorySection from './components/HistorySection';
 
 
 
@@ -37,7 +38,7 @@ function App() {
           </div>
         </div>
       
-      
+      <HistorySection />
       
     </>
   );
