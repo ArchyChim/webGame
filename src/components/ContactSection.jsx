@@ -43,11 +43,11 @@ function ContactSection () {
             </div>
 
             <form onSubmit={handleSubmit} className="contact-form">
-                <input className="name" type="text" placeholder="Name" required />
-                <input className="email" type="email" placeholder="Email" required />
-                <input className="phone" type="tel" placeholder="Phone" />
-                <input className="subject" type="text" placeholder="Subject" />
-                <textarea className="message" placeholder="Message" required></textarea>
+                <input className="name" type="text" placeholder="Nombre" required />
+                <input className="email" type="email" placeholder="E-mail" required />
+                <input className="phone" type="tel" placeholder="Teléfono" />
+                <input className="subject" type="text" placeholder="Concepto" required/>
+                <textarea className="message" placeholder="Mensaje" required></textarea>
                 <button type="submit">Enviar</button>
             </form>
         </div>
