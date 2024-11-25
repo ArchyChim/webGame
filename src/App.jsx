@@ -7,8 +7,6 @@ import GallerySection from './components/GallerySection';
 import DwloadSection from './components/DwloadSection';
 
 
-
-
 function App() {
 
   return (
