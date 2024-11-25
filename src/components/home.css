@@ -145,6 +145,7 @@
     }
 
     .text-video {
+        margin-left: 15px;
         font-size: 1.2rem; /* Reduce font size */
     }
 }
