@@ -20,11 +20,10 @@ function FooterSection () {
 
                 <div class="row">
                     <ul>
-                        <li>Contact us</li>
-                        <li>Our Services</li>
-                        <li>Privacy Policy</li>
-                        <li>Terms & Conditions</li>
-                        <li>Career</li>
+                        <li>Servicios</li>
+                        <li>Politica de Privacidad</li>
+                        <li>Terminos y Condiciones</li>
+                        <li>Profesión</li>
                     </ul>
                 </div>
 
