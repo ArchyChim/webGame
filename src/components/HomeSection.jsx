@@ -1,5 +1,6 @@
 import React from "react";
 import video1 from '../assets/video/video.mp4'
+import './home.css';
 
 
 function HomeSection () {

@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import image1 from '../assets/img/image.jpg';
-
+import './history.css';
 
 
 function HistorySection () {
