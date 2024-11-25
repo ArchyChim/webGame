@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HomeSection from './components/HomeSection';
 import HistorySection from './components/HistorySection';
 import GallerySection from './components/GallerySection';
+import DwloadSection from './components/DwloadSection';
 
 
 
@@ -19,6 +20,8 @@ function App() {
       <HistorySection />
 
       <GallerySection />
+
+      <DwloadSection />
       
     </>
   );

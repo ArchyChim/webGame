@@ -6,7 +6,7 @@ function Navbar(){
             <a href="#home">Inicio</a>
             <a href="#history">Historia</a>
             <a href="#gallery">Galeria</a>
-            <a href="download">Descargar</a>
+            <a href="#download">Descargar</a>
             <a href="#contact">Contacto</a>
         </nav>
 
