@@ -15,28 +15,28 @@ html {
 
 .navbar {
     position: fixed;
-    top: 0; 
-    width: 100%; 
     top: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
     text-align: center;
-    font-weight: 700;
-    padding: 25px; 
+    font-weight: 700; 
+    padding: 25px;
     z-index: 10; 
 }
 
+
+
 .navbar a {
     color: white; 
-    margin: 0 45px; 
+    margin: 0 35px; 
     text-decoration: none; 
     font-size: 18px; 
-    transition: color 0.3s ease; 
 }
   
-  .navbar a:hover {
+.navbar a:hover {
     color: #f00;
-  }
+}
+
   
 
 /*----- NAVBAR SECTION START -----*/
@@ -514,34 +514,31 @@ li {
 
 
 @media (max-width: 768px) {
-  .navbar-toggle {
-    display: flex;
-  }
+    .nav-items {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: -webkit-fill-available;
+        transition: 0.3s ease all;
+    }
 
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100%;
-    max-height: 0;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 0;
-    opacity: 0;
-    text-align: center;
-    transition: max-height 0.4s ease, opacity 0.4s ease;
-  }
+    .nav-toggle{
+        display: flex !important;
+        flex-direction: column;
+        margin: 15px;
+    }
 
-  .nav-links a {
-    margin: 15px 0;
-  }
-
-  .nav-links.show {
-    max-height: 300px;
-    opacity: 1;
-    padding: 10px 0;
-  }
+    .nav-toggle span{
+        width: 30px;
+        height: 4px;
+        background: white;
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
 }
 
