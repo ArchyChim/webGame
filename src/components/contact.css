@@ -109,3 +109,79 @@
 .contact-form button:hover {
     background-color: #e76f51; 
 }
+
+
+@media (max-width: 768px) {
+    .contact-form {
+        grid-template-columns: 1fr; /* Los campos del formulario se apilan verticalmente */
+        gap: 15px;
+    }
+
+    .contact-form .name,
+    .contact-form .email,
+    .contact-form .phone,
+    .contact-form .subject,
+    .contact-form .message {
+        width: 100%;
+        font-size: 14px; /* Reducir el tamaño de la fuente para pantallas más pequeñas */
+        padding: 12px; /* Reducir el padding para adaptarse mejor */
+    }
+
+    .contact-form button {
+        width: 80%;
+        padding: 12px; /* Reducir el padding en el botón */
+    }
+
+    .contact-container h2 {
+        font-size: 28px; /* Reducir el tamaño del título */
+    }
+
+    .contact-container p {
+        font-size: 16px; /* Reducir el tamaño del texto */
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 20px; /* Los elementos de contacto se apilan verticalmente */
+    }
+
+    .info-item {
+        font-size: 14px; /* Reducir el tamaño de la fuente de la información */
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-container {
+        padding: 50px 15px; /* Reducir padding en pantallas muy pequeñas */
+    }
+
+    .contact-container h2 {
+        font-size: 24px; /* Reducir aún más el tamaño del título */
+    }
+
+    .contact-container p {
+        font-size: 14px; /* Reducir aún más el tamaño del texto */
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr; /* Los campos del formulario siguen apilándose verticalmente */
+    }
+
+    .contact-form button {
+        width: 90%; /* El botón de envío ocupará casi todo el ancho */
+    }
+
+    .info-item {
+        font-size: 12px; /* Reducir más el tamaño de la fuente en dispositivos muy pequeños */
+    }
+
+    .contact-form .name,
+    .contact-form .email,
+    .contact-form .phone,
+    .contact-form .subject,
+    .contact-form .message {
+        font-size: 12px; /* Reducir el tamaño de la fuente en los campos */
+        padding: 10px; /* Reducir padding para que los campos no se vean muy grandes */
+    }
+}
+

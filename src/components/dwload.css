@@ -82,3 +82,66 @@ li {
 .download:hover .bx {
     color: #111;
 }
+
+
+@media (max-width: 768px) {
+    .dw-section {
+        padding: 30px; /* Reducir el padding en pantallas más pequeñas */
+    }
+
+    .dw-section-text {
+        width: 100%; /* Asegurar que el texto ocupe todo el ancho */
+        font-size: 20px; /* Reducir el tamaño de la fuente */
+    }
+
+    ul {
+        flex-direction: column; /* Los enlaces de descarga se apilan verticalmente */
+    }
+
+    .download {
+        min-width: 80%; /* Los botones de descarga ocupan más espacio */
+        height: 70px;
+        padding: 12px; /* Ajustar el padding */
+        font-size: 18px; /* Reducir el tamaño de la fuente */
+    }
+
+    .download > .bx {
+        font-size: 2rem; /* Reducir el tamaño del ícono */
+    }
+
+    .df {
+        font-size: 0.7em; /* Reducir el tamaño de la fuente */
+    }
+
+    .dfn {
+        font-size: 1.1em; /* Reducir el tamaño del texto */
+    }
+}
+
+@media (max-width: 480px) {
+    .dw-section {
+        padding: 20px; /* Ajustar aún más el padding en pantallas muy pequeñas */
+    }
+
+    .dw-section-text {
+        font-size: 18px; /* Reducir el tamaño de la fuente en dispositivos muy pequeños */
+    }
+
+    .download {
+        min-width: 100%; /* Hacer los botones más grandes en pantallas pequeñas */
+        height: 60px;
+        padding: 10px;
+    }
+
+    .download > .bx {
+        font-size: 1.5rem; /* Reducir más el tamaño del ícono */
+    }
+
+    .df {
+        font-size: 0.6em; /* Reducir aún más el tamaño de la fuente */
+    }
+
+    .dfn {
+        font-size: 1em; /* Reducir el tamaño del texto */
+    }
+}

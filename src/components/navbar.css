@@ -1,70 +1,104 @@
+/* Navbar principal */
 .navbar {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
-    text-align: center;
-    font-weight: 700; 
-    padding: 15px 25px;
-    z-index: 10; 
+    padding: 0 20px; /* Asegura que el contenido no toque los bordes */
+    z-index: 1000;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Alinea el menú y el botón de hamburguesa */
     align-items: center;
+    height: 60px; /* Altura de la barra de navegación */
 }
 
+/* Enlaces del menú en pantallas grandes (escritorio) */
 .nav-links {
     display: flex;
-    gap: 25px;
-    transition: max-height 0.3s ease, opacity 0.3s ease;
+    flex-direction: row; /* Los enlaces se muestran en fila en pantallas grandes */
+    align-items: center; /* Centra los enlaces */
+    margin-left: auto; /* Empuja los enlaces a la derecha */
 }
 
 .nav-links a {
-    color: white; 
-    margin: 0 20px;
-    text-decoration: none; 
-    font-size: 18px; 
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 20px; /* Espaciado entre los enlaces */
+    transition: color 0.3s;
 }
-  
+
 .nav-links a:hover {
     color: #f00;
 }
 
+/* Botón menú hamburguesa en pantallas pequeñas */
 .menu-toggle {
-    display: none;
+    display: none; /* Se oculta en pantallas grandes */
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: none;
     border: none;
     cursor: pointer;
+    z-index: 1001; /* Asegura que quede encima */
 }
 
+/* Barras del botón hamburguesa */
 .menu-toggle .bar {
     width: 25px;
     height: 3px;
     background-color: white;
-    margin: 3px 0;
+    margin: 4px 0;
     transition: all 0.3s ease;
 }
 
-@media (max-width: 768px) {
+/* Animación cuando se abre el menú */
+.menu-toggle .bar.open:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
 
+.menu-toggle .bar.open:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle .bar.open:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* En pantallas pequeñas, se muestra el menú como hamburguesa */
     .nav-links {
-        flex-direction: column;
+        display: flex;
+        flex-direction: column; /* Los enlaces se muestran en columna */
+        align-items: center; /* Centra los enlaces */
         position: absolute;
         top: 60px;
-        right: 0;
-        background-color: rgba(0, 0, 0, 0.9);
+        left: 0;
         width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
         max-height: 0;
         overflow: hidden;
         opacity: 0;
+        transition: max-height 0.3s ease, opacity 0.3s ease;
     }
 
+    /* Los enlaces se muestran cuando el menú se abre */
     .nav-links.open {
-        max-height: 300px; /* Ajustar según el número de enlaces */
+        max-height: 300px; /* Ajusta según el número de enlaces */
         opacity: 1;
     }
 
+    /* Muestra el botón hamburguesa solo en pantallas pequeñas */
     .menu-toggle {
         display: flex;
+    }
+
+    /* Enlaces en pantallas pequeñas */
+    .nav-links a {
+        font-size: 20px;
+        margin: 15px 0; /* Espaciado mayor entre los enlaces */
     }
 }

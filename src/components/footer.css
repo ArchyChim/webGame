@@ -44,3 +44,58 @@
     font-size:3em;
     margin:0% 1%;
 }
+
+
+
+@media (max-width: 768px) {
+    .footer .row ul li {
+        margin: 0 15px; /* Reducir el espacio entre los elementos */
+        font-size: 0.9em; /* Reducir tamaño de fuente en pantallas pequeñas */
+    }
+
+    .footer .row i {
+        font-size: 2.5em; /* Reducir tamaño de los íconos en pantallas pequeñas */
+    }
+
+    .footer .row {
+        margin: 10px 0; /* Ajustar márgenes */
+    }
+
+    .footer .row ul {
+        text-align: center; /* Centrar los elementos de la lista */
+    }
+
+    .footer .row i {
+        margin: 10px; /* Separar los íconos un poco más */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer .row ul li {
+        margin: 0 10px; /* Reducir aún más el margen entre los enlaces */
+        font-size: 0.8em; /* Reducir tamaño de fuente en pantallas muy pequeñas */
+    }
+
+    .footer .row i {
+        font-size: 2em; /* Reducir tamaño de los íconos aún más */
+        margin: 10px 5px; /* Ajustar el margen de los íconos */
+    }
+
+    .footer .row {
+        font-size: 0.7em; /* Reducir tamaño de la fuente en todo el footer */
+    }
+
+    .footer .row ul {
+        display: flex;
+        flex-direction: column; /* Apilar los enlaces verticalmente */
+        align-items: center; /* Centrar los enlaces */
+    }
+
+    .footer .row ul li {
+        margin-bottom: 10px; /* Espaciado entre los enlaces */
+    }
+
+    .footer .row {
+        padding: 10px 0; /* Ajustar el padding en pantallas pequeñas */
+    }
+}
