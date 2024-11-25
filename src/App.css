@@ -11,6 +11,8 @@ html {
     scroll-behavior: smooth;
 }
 
+/*----- NAVBAR SECTION START -----*/
+
 .navbar {
     position: fixed;
     top: 0; 
@@ -33,7 +35,15 @@ html {
 .navbar a:hover {
     color: #f00; 
 }
+
+/*----- NAVBAR SECTION START -----*/
   
+
+
+
+
+
+/*----- HOME SECTION START -----*/
 
 .header-container {
     position: relative;
@@ -102,8 +112,6 @@ html {
     }
 }
 
-
-
 .banner {
     position: relative;
     background-color: #070707;
@@ -116,7 +124,6 @@ html {
     color: #fff;
     padding: 55px 20px;
 }
-
 
 
 .video-container {
@@ -152,6 +159,15 @@ html {
     opacity: 1;
     transform: translate(-50%, -50%) translateY(0);
 }
+
+/*----- HOME SECTION END -----*/
+
+
+
+
+
+
+/*----- HISTORY SECTION START -----*/
 
 .history-section {
     display: flex;
@@ -194,17 +210,34 @@ html {
     }
 }
 
+
 .history-text p {
     padding: 60px;
     text-align: justify;
     line-height: 1.8;
 }
 
+/*----- HISTORY SECTION END -----*/
+
+
+
+
+
+/*----- GALLERY SECTION START -----*/
+
 .gallery-section {
     background-color: #070707;
     padding-top: 25px;
     object-fit: cover;
 }
+
+/*----- GALLERY SECTION END -----*/
+
+
+
+
+
+/*----- DOWNLOAD SECTION START -----*/
 
 .dw-section{
     padding: 150px 50px 100px;
@@ -283,3 +316,5 @@ li {
 .download:hover .bx {
     color: #111;
 }
+
+/*----- DOWNLOAD SECTION END -----*/
