@@ -48,7 +48,7 @@ function ContactSection () {
                 <input className="phone" type="tel" placeholder="Phone" />
                 <input className="subject" type="text" placeholder="Subject" />
                 <textarea className="message" placeholder="Message" required></textarea>
-                <button type="submit">Submit</button>
+                <button type="submit">Enviar</button>
             </form>
         </div>
 
