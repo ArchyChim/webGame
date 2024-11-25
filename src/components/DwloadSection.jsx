@@ -1,5 +1,5 @@
 import React from "react";
-
+import './dwload.css';
 
 
 function DwloadSection () {
