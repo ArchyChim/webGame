@@ -15,7 +15,7 @@ function DwloadSection () {
                     <a href = "/test-image.jpg" download className="download windows">
                         <i className='bx bxl-windows'></i>
                         <div className="text-icon-container">
-                            <span className="df">Download for</span>
+                            <span className="df">Descargar para</span>
                             <span className="dfn"> Windows</span>
                         </div>
                     </a>
@@ -25,7 +25,7 @@ function DwloadSection () {
                     <a href = "/test-image.jpg" download className="download apple">
                         <i className='bx bxl-apple'></i>
                         <div className="text-icon-container">
-                            <span className="df">Download for</span>
+                            <span className="df">Descargar para</span>
                             <span className="dfn">Mac</span>
                         </div>                 
                     </a>
