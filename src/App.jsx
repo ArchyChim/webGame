@@ -6,6 +6,7 @@ import HistorySection from './components/HistorySection';
 import GallerySection from './components/GallerySection';
 import DwloadSection from './components/DwloadSection';
 import ContactSection from './components/ContactSection';
+import FooterSection from './components/FooterSection';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
       <DwloadSection />
 
       <ContactSection />
+
+      <FooterSection />
       
     </>
   );
