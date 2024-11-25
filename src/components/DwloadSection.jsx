@@ -6,8 +6,11 @@ function DwloadSection () {
     return (
         <>
         <div id="download" className="dw-section">
-            <h1>¡Descarga Ahora!</h1> <br />
-            <p>Y comienza a disfrutar de la mejor experiencia de terror psicológico</p>
+            <div className="dw-section-text">
+                <h1>¡Descarga Ahora!</h1> <br />
+                <p>Y comienza a disfrutar de la mejor experiencia de terror psicológico</p>
+            </div>
+            
 
             <ul>
 

@@ -5,6 +5,7 @@ import HomeSection from './components/HomeSection';
 import HistorySection from './components/HistorySection';
 import GallerySection from './components/GallerySection';
 import DwloadSection from './components/DwloadSection';
+import ContactSection from './components/ContactSection';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <GallerySection />
 
       <DwloadSection />
+
+      <ContactSection />
       
     </>
   );
