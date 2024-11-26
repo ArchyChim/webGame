@@ -11,7 +11,7 @@ import LoadingScreen from './components/LoadingScreen';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
-
+  
   useEffect(() => {
     const images = document.querySelectorAll('img');
     const videos = document.querySelectorAll('video');
