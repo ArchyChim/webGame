@@ -10,7 +10,7 @@ function FooterSection () {
 
             <div className="footer">
 
-                <div class="row">
+                <div className="row">
                     <i className='bx bxl-facebook-circle'></i>
                     <i className='bx bxl-instagram'></i>
                     <i className='bx bxl-youtube'></i>
@@ -18,7 +18,7 @@ function FooterSection () {
 
 
 
-                <div class="row">
+                <div className="row">
                     <ul>
                         <li>Servicios</li>
                         <li>Politica de Privacidad</li>
@@ -29,7 +29,7 @@ function FooterSection () {
 
 
 
-                <div class="row">
+                <div className="row">
                     ZamnaGames Copyright © 2024 - All rights reserved || Designed By: Archibaldo Chim 
                 </div>
 
