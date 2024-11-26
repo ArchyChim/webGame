@@ -136,17 +136,17 @@
     }
 
     .banner-text {
-        font-size: 1.5rem; /* Reduce font size */
+        font-size: 1.5rem; 
         padding: 15px;
     }
 
     .video-background {
-        height: 400px; /* Adjust video height */
+        height: 400px; 
     }
 
     .text-video {
         margin-left: 15px;
-        font-size: 1.2rem; /* Reduce font size */
+        font-size: 1.2rem; 
     }
 }
 

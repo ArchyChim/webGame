@@ -113,7 +113,7 @@
 
 @media (max-width: 768px) {
     .contact-form {
-        grid-template-columns: 1fr; /* Los campos del formulario se apilan verticalmente */
+        grid-template-columns: 1fr; 
         gap: 15px;
     }
 
@@ -123,56 +123,56 @@
     .contact-form .subject,
     .contact-form .message {
         width: 100%;
-        font-size: 14px; /* Reducir el tamaño de la fuente para pantallas más pequeñas */
-        padding: 12px; /* Reducir el padding para adaptarse mejor */
+        font-size: 14px; 
+        padding: 12px; 
     }
 
     .contact-form button {
         width: 80%;
-        padding: 12px; /* Reducir el padding en el botón */
+        padding: 12px; 
     }
 
     .contact-container h2 {
-        font-size: 28px; /* Reducir el tamaño del título */
+        font-size: 28px; 
     }
 
     .contact-container p {
-        font-size: 16px; /* Reducir el tamaño del texto */
+        font-size: 16px; 
     }
 
     .contact-info {
         flex-direction: column;
-        gap: 20px; /* Los elementos de contacto se apilan verticalmente */
+        gap: 20px; 
     }
 
     .info-item {
-        font-size: 14px; /* Reducir el tamaño de la fuente de la información */
+        font-size: 14px; 
     }
 }
 
 @media (max-width: 480px) {
     .contact-container {
-        padding: 50px 15px; /* Reducir padding en pantallas muy pequeñas */
+        padding: 50px 15px; 
     }
 
     .contact-container h2 {
-        font-size: 24px; /* Reducir aún más el tamaño del título */
+        font-size: 24px; 
     }
 
     .contact-container p {
-        font-size: 14px; /* Reducir aún más el tamaño del texto */
+        font-size: 14px; 
     }
 
     .contact-form {
-        grid-template-columns: 1fr; /* Los campos del formulario siguen apilándose verticalmente */
+        grid-template-columns: 1fr; 
     }
 
     .contact-form button {
-        width: 90%; /* El botón de envío ocupará casi todo el ancho */
+        width: 90%; 
     }
 
     .info-item {
-        font-size: 12px; /* Reducir más el tamaño de la fuente en dispositivos muy pequeños */
+        font-size: 12px; 
     }
 
     .contact-form .name,
@@ -180,8 +180,8 @@
     .contact-form .phone,
     .contact-form .subject,
     .contact-form .message {
-        font-size: 12px; /* Reducir el tamaño de la fuente en los campos */
-        padding: 10px; /* Reducir padding para que los campos no se vean muy grandes */
+        font-size: 12px; 
+        padding: 10px; 
     }
 }
 

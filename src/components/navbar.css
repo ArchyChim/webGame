@@ -1,33 +1,33 @@
-/* Navbar principal */
+
 .navbar {
     position: fixed;
     top: 0;
-    left: 50%;  /* Ajuste para centrar el navbar horizontalmente */
-    transform: translateX(-50%); /* Esto compensa el "left: 50%" para centrar completamente */
+    left: 50%;  
+    transform: translateX(-50%); 
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
-    padding: 0 20px; /* Espaciado de los bordes */
+    padding: 0 20px; 
     z-index: 1000;
     display: flex;
-    justify-content: center; /* Centra los enlaces */
+    justify-content: center; 
     align-items: center;
     height: 60px;
 }
 
-/* Enlaces del menú */
+
 .nav-links {
     display: flex;
-    flex-direction: row; /* Los enlaces se muestran en fila */
-    align-items: center; /* Centra los enlaces */
-    justify-content: center; /* Asegura que los enlaces estén centrados */
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
 }
 
-/* Estilo para los enlaces */
+
 .nav-links a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    margin: 0 35px; /* Espaciado entre los enlaces */
+    margin: 0 35px; 
     transition: color 0.3s;
 }
 
@@ -35,9 +35,9 @@
     color: #f00;
 }
 
-/* Botón del menú hamburguesa */
+
 .menu-toggle {
-    display: none; /* Se oculta en pantallas grandes */
+    display: none; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -55,7 +55,7 @@
     transition: all 0.3s ease;
 }
 
-/* Animación cuando el menú se abre */
+
 .menu-toggle .bar.open:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
@@ -68,20 +68,20 @@
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Estilos para pantallas pequeñas */
+
 @media (max-width: 768px) {
     .navbar {
-        left: 0; /* El navbar ya no estará centrado, ocupando el ancho completo */
-        transform: none; /* No se aplica la transformación de centrar */
-        padding: 0 10px; /* Menos espacio en los bordes */
+        left: 0; 
+        transform: none; 
+        padding: 0 10px; 
     }
 
     .nav-links {
         display: flex;
-        flex-direction: column; /* Los enlaces se muestran en columna */
-        align-items: center; /* Centra los enlaces */
+        flex-direction: column; 
+        align-items: center; 
         position: absolute;
-        top: 60px; /* Se coloca debajo del botón */
+        top: 60px; 
         left: 0;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.9);
@@ -92,16 +92,16 @@
     }
 
     .nav-links.open {
-        max-height: 300px; /* Ajusta según la cantidad de enlaces */
+        max-height: 300px; 
         opacity: 1;
     }
 
     .menu-toggle {
-        display: flex; /* Muestra el botón en pantallas pequeñas */
+        display: flex; 
     }
 
     .nav-links a {
         font-size: 20px;
-        margin: 15px 0; /* Espaciado mayor entre los enlaces */
+        margin: 15px 0; 
     }
 }

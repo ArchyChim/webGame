@@ -49,35 +49,35 @@
 
 @media (max-width: 768px) {
     .history-section {
-        flex-direction: column; /* Cambiar a columna para pantallas más pequeñas */
+        flex-direction: column; 
         align-items: center;
     }
 
     .image1 {
-        max-width: 100%; /* Asegurarse de que la imagen ocupe todo el ancho en pantallas pequeñas */
-        height: auto; /* Mantener la proporción de la imagen */
+        max-width: 100%; 
+        height: auto; 
         margin-right: 0;
-        margin-bottom: 20px; /* Separar la imagen del texto */
+        margin-bottom: 20px; 
     }
 
     .animate-text {
-        max-width: 100%; /* El texto ocupa todo el ancho disponible en pantallas pequeñas */
-        font-size: 22px; /* Reducir el tamaño del texto para pantallas pequeñas */
-        padding: 10px; /* Agregar un poco de padding para que el texto no esté pegado al borde */
+        max-width: 100%; 
+        font-size: 22px; 
+        padding: 10px; 
     }
 
     .history-text p {
-        padding: 20px; /* Reducir el padding en pantallas pequeñas */
-        font-size: 18px; /* Ajustar tamaño del texto */
+        padding: 20px;
+        font-size: 18px; 
     }
 }
 
 @media (max-width: 480px) {
     .history-text p {
-        font-size: 16px; /* Reducir aún más el tamaño del texto para pantallas muy pequeñas */
+        font-size: 16px; 
     }
 
     .animate-text {
-        font-size: 20px; /* Reducir el tamaño del texto para pantallas más pequeñas */
+        font-size: 20px; 
     }
 }
