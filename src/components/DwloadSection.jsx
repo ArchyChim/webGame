@@ -15,7 +15,7 @@ function DwloadSection () {
             <ul>
 
                 <li>
-                    <a href = "https://gofile.io/d/w6fWRt" download className="download windows">
+                    <a href = "https://drive.google.com/file/d/1nC0jE46M0Hghjp-eHAOd_CoYW6Nv83-J/view?usp=sharing" download className="download windows">
                         <i className='bx bxl-windows'></i>
                         <div className="text-icon-container">
                             <span className="df">Descargar para</span>
@@ -25,7 +25,7 @@ function DwloadSection () {
                 </li>
 
                 <li>
-                    <a href = "https://gofile.io/d/w6fWRt" download className="download apple">
+                    <a href = "https://drive.google.com/file/d/1nC0jE46M0Hghjp-eHAOd_CoYW6Nv83-J/view?usp=sharing" download className="download apple">
                         <i className='bx bxl-apple'></i>
                         <div className="text-icon-container">
                             <span className="df">Descargar para</span>
