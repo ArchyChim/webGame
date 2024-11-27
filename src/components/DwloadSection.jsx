@@ -37,7 +37,7 @@ function DwloadSection () {
                
             </ul>
             <br />
-            <a href="/manual.pdf" download className="dw-manual">
+            <a href="/manualEFB.pdf" download className="dw-manual">
                 Descarga el manual del juego aquí
             </a>
 
