@@ -15,7 +15,7 @@ function DwloadSection () {
             <ul>
 
                 <li>
-                    <a href = "https://www.dropbox.com/scl/fi/wnentn2279fseu9fwtxbf/EchoesFromBeyond.exe?rlkey=fm8me9gsv3uwmmdhqjjve7hko&st=qn087y0o&dl=1" download className="download windows">
+                    <a href = "https://www.dropbox.com/scl/fi/q3ytwuycz68jt23ltwntg/efbInstaller.exe?rlkey=c4brezjj338goiyvsmmb05zhr&st=e7u8gc90&dl=1" download className="download windows">
                         <i className='bx bxl-windows'></i>
                         <div className="text-icon-container">
                             <span className="df">Descargar para</span>
@@ -25,7 +25,7 @@ function DwloadSection () {
                 </li>
 
                 <li>
-                    <a href = "https://www.dropbox.com/scl/fi/wnentn2279fseu9fwtxbf/EchoesFromBeyond.exe?rlkey=fm8me9gsv3uwmmdhqjjve7hko&st=qn087y0o&dl=1" download className="download apple">
+                    <a href = "https://www.dropbox.com/scl/fi/q3ytwuycz68jt23ltwntg/efbInstaller.exe?rlkey=c4brezjj338goiyvsmmb05zhr&st=e7u8gc90&dl=1" download className="download apple">
                         <i className='bx bxl-apple'></i>
                         <div className="text-icon-container">
                             <span className="df">Descargar para</span>
